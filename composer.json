@@ -1,0 +1,50 @@
+{
+    "name": "beastbytes/country-data-php",
+    "type": "library",
+    "description": "Implementation of country-data to retrieve country data from PHP storage",
+    "keywords": [
+        "country",
+        "country data",
+        "address format",
+        "flag",
+        "idc",
+        "international dialing code",
+        "name format",
+        "timezone",
+        "tld",
+        "top level domain"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [{
+        "name": "Chris Yates",
+        "email": "chris.l.yates@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.0",
+        "beastbytes/country-data": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "roave/infection-static-analysis-plugin": "^1.0",
+        "roave/security-advisories": "dev-latest",
+        "vimeo/psalm": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BeastBytes\\Country\\PHP\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BeastBytes\\Country\\PHP\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "infection": "roave-infection-static-analysis-plugin --log-verbosity=all --debug",
+        "psalm": "psalm",
+        "robo": "robo",
+        "test": "phpunit --testdox"
+    }
+}
