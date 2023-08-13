@@ -42,7 +42,7 @@
         }
     },
     "scripts": {
-        "infection": "roave-infection-static-analysis-plugin",
+        "infection": "roave-infection-static-analysis-plugin --min-msi=90 --min-covered-msi=90",
         "psalm": "psalm",
         "robo": "robo",
         "test": "phpunit --testdox"

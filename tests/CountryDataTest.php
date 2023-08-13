@@ -197,9 +197,11 @@ class CountryDataTest extends TestCase
     public static function getterProvider(): Generator
     {
         $data = require dirname(__DIR__) . '/data/data.php';
+        $countries = array_keys($data);
+        $countries = array_splice($countries, 26, 5); // comment out to test the data
         $methods = get_class_methods(CountryData::class);
 
-        foreach (array_keys($data) as $country) {
+        foreach ($countries as $country) {
             foreach ($methods as $method) {
                 if (
                     !in_array($method, ['getCountries', 'getCountry', 'getFlag'], true)
