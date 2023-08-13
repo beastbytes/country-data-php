@@ -23,7 +23,7 @@
     "prefer-stable": true,
     "require": {
         "php": "^8.0",
-        "beastbytes/country-data": "dev-master"
+        "beastbytes/country-data": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^10.0",
@@ -42,7 +42,7 @@
         }
     },
     "scripts": {
-        "infection": "roave-infection-static-analysis-plugin --log-verbosity=all --debug",
+        "infection": "roave-infection-static-analysis-plugin",
         "psalm": "psalm",
         "robo": "robo",
         "test": "phpunit --testdox"
