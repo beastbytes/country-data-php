@@ -105,8 +105,8 @@ return [
         'tld' => 'aq',
         'idc' => '672',
         'timezone' => '-12,+12',
-        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
-        'addressFormat' => '{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^'
+        'nameFormat' => '',
+        'addressFormat' => ''
     ],
     'AR' => [
         'name' => 'Argentina',
@@ -414,7 +414,6 @@ return [
         'idc' => '501',
         'timezone' => '-6',
         'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
-
         'addressFormat' => '{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^'
     ],
     'CA' => [
@@ -622,6 +621,7 @@ return [
         'numeric' => '203',
         'tld' => 'cz',
         'idc' => '420', '+1',
+        'timezone' => '+1',
         'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
         'addressFormat' => '{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^'
     ],
@@ -2128,7 +2128,7 @@ return [
         'numeric' => '646',
         'tld' => 'rw',
         'idc' => '250',
-        'timezone' => '',
+        'timezone' => '+2',
         'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
         'addressFormat' => '{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^'
     ],
@@ -2304,6 +2304,7 @@ return [
         'numeric' => '728',
         'tld' => 'ss',
         'idc' => '211', '+3',
+        'timezone' => '+2',
         'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
         'addressFormat' => '{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^'
     ],
