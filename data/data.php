@@ -1,6 +1,6 @@
 <?php
 /**
- * Country data indexed by @link https://www.iso.org/iso-3166-country-codes.html ISO 3166-1 alpha-2 country code
+ * Country data indexed by {@link https://www.iso.org/iso-3166-country-codes.html ISO 3166-1 alpha-2 country code}
  *
  * addressFormat: fields within ^ marks should be rendered in uppercase
  *
@@ -17,8 +17,8 @@ return [
         'tld' => 'ad',
         'idc' => '376',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'AE' => [
         'name' => 'United Arab Emirates',
@@ -28,8 +28,8 @@ return [
         'tld' => 'ae',
         'idc' => '971',
         'timezone' => '+4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'AF' => [
         'name' => 'Afghanistan',
@@ -39,8 +39,8 @@ return [
         'tld' => 'af',
         'idc' => '93',
         'timezone' => '+4.5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'AG' => [
         'name' => 'Antigua And Barbuda',
@@ -50,8 +50,8 @@ return [
         'tld' => 'ag',
         'idc' => '1-264',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'AI' => [
         'name' => 'Anguilla',
@@ -61,8 +61,8 @@ return [
         'tld' => 'ai',
         'idc' => '1-264',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'AL' => [
         'name' => 'Albania',
@@ -72,8 +72,8 @@ return [
         'tld' => 'al',
         'idc' => '355',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'AM' => [
         'name' => 'Armenia',
@@ -83,8 +83,8 @@ return [
         'tld' => 'am',
         'idc' => '374',
         'timezone' => '+4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'AO' => [
         'name' => 'Angola',
@@ -94,8 +94,8 @@ return [
         'tld' => 'ao',
         'idc' => '244',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'AQ' => [
         'name' => 'Antarctica',
@@ -116,8 +116,8 @@ return [
         'tld' => 'ar',
         'idc' => '54',
         'timezone' => '-3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code locality region\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} {locality} {region}\n^{country}^"
     ],
     'AS' => [
         'name' => 'American Samoa',
@@ -127,8 +127,8 @@ return [
         'tld' => 'as',
         'idc' => '1-684',
         'timezone' => '-11',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'AT' => [
         'name' => 'Austria',
@@ -138,8 +138,8 @@ return [
         'tld' => 'at',
         'idc' => '43',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\npostal_code ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{postal_code} ^{region}^\n^{country}^"
     ],
     'AU' => [
         'name' => 'Australia',
@@ -149,8 +149,8 @@ return [
         'tld' => 'au',
         'idc' => '61',
         'timezone' => '+8,+10.5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\n^locality^ ^region^ postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n^{locality}^ ^{region}^ {postal_code}\n^{country}^"
     ],
     'AW' => [
         'name' => 'Aruba',
@@ -160,8 +160,8 @@ return [
         'tld' => 'aw',
         'idc' => '297',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'AX' => [
         'name' => 'Ãland Islands',
@@ -171,8 +171,8 @@ return [
         'tld' => 'ax',
         'idc' => '358',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'AZ' => [
         'name' => 'Azerbaijan',
@@ -182,8 +182,8 @@ return [
         'tld' => 'az',
         'idc' => '994',
         'timezone' => '+4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'BA' => [
         'name' => 'Bosnia and Herzegovina',
@@ -193,8 +193,8 @@ return [
         'tld' => 'ba',
         'idc' => '387',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'BB' => [
         'name' => 'Barbados',
@@ -204,8 +204,8 @@ return [
         'tld' => 'bb',
         'idc' => '1-246',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'BD' => [
         'name' => 'Bangladesh',
@@ -215,8 +215,8 @@ return [
         'tld' => 'bd',
         'idc' => '880',
         'timezone' => '+6',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'BE' => [
         'name' => 'Belgium',
@@ -226,8 +226,8 @@ return [
         'tld' => 'be',
         'idc' => '32',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\n^locality^ ^region^ postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n^{locality}^ ^{region}^ {postal_code}\n^{country}^"
     ],
     'BF' => [
         'name' => 'Burkina Faso',
@@ -237,8 +237,8 @@ return [
         'tld' => 'bf',
         'idc' => '226',
         'timezone' => '+0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'BG' => [
         'name' => 'Bulgaria',
@@ -248,8 +248,8 @@ return [
         'tld' => 'bg',
         'idc' => '359',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'BH' => [
         'name' => 'Bahrain',
@@ -259,8 +259,8 @@ return [
         'tld' => 'bh',
         'idc' => '973',
         'timezone' => '+3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'BI' => [
         'name' => 'Burundi',
@@ -270,8 +270,8 @@ return [
         'tld' => 'bi',
         'idc' => '257',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'BJ' => [
         'name' => 'Benin',
@@ -281,8 +281,8 @@ return [
         'tld' => 'bj',
         'idc' => '229',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'BL' => [
         'name' => 'Saint Barthélemy',
@@ -292,8 +292,8 @@ return [
         'tld' => 'bl',
         'idc' => '590',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'BM' => [
         'name' => 'Bermuda',
@@ -303,8 +303,8 @@ return [
         'tld' => 'bm',
         'idc' => '1-441',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'BN' => [
         'name' => 'Brunei Darussalam',
@@ -314,8 +314,8 @@ return [
         'tld' => 'bn',
         'idc' => '673',
         'timezone' => '+8',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'BO' => [
         'name' => 'Bolivia, Plurinational State of',
@@ -325,8 +325,8 @@ return [
         'tld' => 'bo',
         'idc' => '591',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'BQ' => [
         'name' => 'Bonaire, Sint eustatius and Saba',
@@ -336,8 +336,8 @@ return [
         'tld' => 'bq',
         'idc' => '599',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'BR' => [
         'name' => 'Brazil',
@@ -347,8 +347,8 @@ return [
         'tld' => 'br',
         'idc' => '55',
         'timezone' => '-2,-5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'BS' => [
         'name' => 'Bahamas',
@@ -358,8 +358,8 @@ return [
         'tld' => 'bs',
         'idc' => '1-242',
         'timezone' => '-5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'BT' => [
         'name' => 'Bhutan',
@@ -369,8 +369,8 @@ return [
         'tld' => 'bt',
         'idc' => '975',
         'timezone' => '+6',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'BV' => [
         'name' => 'Bouvet Island',
@@ -380,8 +380,8 @@ return [
         'tld' => 'bv',
         'idc' => '',
         'timezone' => '+0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'BW' => [
         'name' => 'Botswana',
@@ -391,8 +391,8 @@ return [
         'tld' => 'bw',
         'idc' => '267',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'BY' => [
         'name' => 'Belarus',
@@ -402,8 +402,8 @@ return [
         'tld' => 'by',
         'idc' => '375',
         'timezone' => '+3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'BZ' => [
         'name' => 'Belize',
@@ -413,8 +413,8 @@ return [
         'tld' => 'bz',
         'idc' => '501',
         'timezone' => '-6',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'CA' => [
         'name' => 'Canada',
@@ -424,8 +424,8 @@ return [
         'tld' => 'ca',
         'idc' => '1',
         'timezone' => '-3.5,-8',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\n^locality^ ^region^ postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n^{locality}^ ^{region}^ {postal_code}\n^{country}^"
     ],
     'CC' => [
         'name' => 'Cocos and Keeling Islands',
@@ -435,8 +435,8 @@ return [
         'tld' => 'cc',
         'idc' => '61',
         'timezone' => '+6.5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'CD' => [
         'name' => 'Congo, The Democratic Republic of the ',
@@ -446,8 +446,8 @@ return [
         'tld' => 'cd',
         'idc' => '243',
         'timezone' => '+1,+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'CF' => [
         'name' => 'Central African Republic',
@@ -457,8 +457,8 @@ return [
         'tld' => 'cf',
         'idc' => '236',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'CG' => [
         'name' => 'Congo',
@@ -468,8 +468,8 @@ return [
         'tld' => 'cg',
         'idc' => '242',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'CH' => [
         'name' => 'Switzerland',
@@ -479,8 +479,8 @@ return [
         'tld' => 'ch',
         'idc' => '41',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code locality region\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} {locality} {region}\n^{country}^"
     ],
     'CI' => [
         'name' => "Côte D'Ivoire",
@@ -490,8 +490,8 @@ return [
         'tld' => 'ci',
         'idc' => '225',
         'timezone' => '+0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'CK' => [
         'name' => 'Cook Islands',
@@ -501,8 +501,8 @@ return [
         'tld' => 'ck',
         'idc' => '682',
         'timezone' => '-10',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'CL' => [
         'name' => 'Chile',
@@ -512,8 +512,8 @@ return [
         'tld' => 'cl',
         'idc' => '56',
         'timezone' =>'-3,-5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'CM' => [
         'name' => 'Cameroon',
@@ -523,8 +523,8 @@ return [
         'tld' => 'cm',
         'idc' => '273',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'CN' => [
         'name' => 'China',
@@ -534,8 +534,8 @@ return [
         'tld' => 'cn',
         'idc' => '86',
         'timezone' => '+8',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\n^locality^\npostal_code ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n^{locality}^\n{postal_code} ^{region}^\n^{country}^"
     ],
     'CO' => [
         'name' => 'Colombia',
@@ -545,8 +545,8 @@ return [
         'tld' => 'co',
         'idc' => '57',
         'timezone' => '-5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'CR' => [
         'name' => 'Costa Rica',
@@ -556,8 +556,8 @@ return [
         'tld' => 'cr',
         'idc' => '506',
         'timezone' => '-6',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'CU' => [
         'name' => 'Cuba',
@@ -567,8 +567,8 @@ return [
         'tld' => 'cu',
         'idc' => '53',
         'timezone' => '-5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'CV' => [
         'name' => 'Cape Verde',
@@ -578,8 +578,8 @@ return [
         'tld' => 'cv',
         'idc' => '238',
         'timezone' => '-1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'CW' => [
         'name' => 'Curaçao',
@@ -589,8 +589,8 @@ return [
         'tld' => 'cw',
         'idc' => '599 9',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'CX' => [
         'name' => 'Christmas Island',
@@ -600,8 +600,8 @@ return [
         'tld' => 'cx',
         'idc' => '61',
         'timezone' => '+7',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'CY' => [
         'name' => 'Cyprus',
@@ -611,8 +611,8 @@ return [
         'tld' => 'cy',
         'idc' => '357',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\npostal_code ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{postal_code} ^{region}^\n^{country}^"
     ],
     'CZ' => [
         'name' => 'Czech Republic',
@@ -622,8 +622,8 @@ return [
         'tld' => 'cz',
         'idc' => '420', '+1',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'DE' => [
         'name' => 'Germany',
@@ -633,8 +633,8 @@ return [
         'tld' => 'de',
         'idc' => '49',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code locality region\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} {locality} {region}\n^{country}^"
     ],
     'DJ' => [
         'name' => 'Djibouti',
@@ -644,8 +644,8 @@ return [
         'tld' => 'dj',
         'idc' => '253',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'DK' => [
         'name' => 'Denmark',
@@ -655,8 +655,8 @@ return [
         'tld' => 'dk',
         'idc' => '45',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'DM' => [
         'name' => 'Dominica',
@@ -666,8 +666,8 @@ return [
         'tld' => 'dm',
         'idc' => '1-767',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'DO' => [
         'name' => 'Dominican Republic',
@@ -677,8 +677,8 @@ return [
         'tld' => 'do',
         'idc' => '1-809,1-829,1-849',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'DZ' => [
         'name' => 'Algeria',
@@ -688,8 +688,8 @@ return [
         'tld' => 'dz',
         'idc' => '213',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'EC' => [
         'name' => 'Ecuador',
@@ -699,8 +699,8 @@ return [
         'tld' => 'ec',
         'idc' => '593',
         'timezone' => '-5,-6',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'EE' => [
         'name' => 'Estonia',
@@ -710,8 +710,8 @@ return [
         'tld' => 'ee',
         'idc' => '372',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code locality region\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} {locality} {region}\n^{country}^"
     ],
     'EG' => [
         'name' => 'Egypt',
@@ -721,8 +721,8 @@ return [
         'tld' => 'eg',
         'idc' => '20',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'EH' => [
         'name' => 'Western Sahara',
@@ -732,8 +732,8 @@ return [
         'tld' => 'eh',
         'idc' => '212',
         'timezone' => '+0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'ER' => [
         'name' => 'Eritrea',
@@ -743,8 +743,8 @@ return [
         'tld' => 'er',
         'idc' => '291',
         'timezone' => '+3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'ES' => [
         'name' => 'Spain',
@@ -754,8 +754,8 @@ return [
         'tld' => 'es',
         'idc' => '34',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'ET' => [
         'name' => 'Ethiopia',
@@ -765,8 +765,8 @@ return [
         'tld' => 'et',
         'idc' => '251',
         'timezone' => '+3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'EU' => [
         'name' => 'European Union',
@@ -787,8 +787,8 @@ return [
         'tld' => 'fi',
         'idc' => '358',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'FJ' => [
         'name' => 'Fiji',
@@ -798,8 +798,8 @@ return [
         'tld' => 'fj',
         'idc' => '679',
         'timezone' => '+12',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'FK' => [
         'name' => 'Falkland Islands',
@@ -809,8 +809,8 @@ return [
         'tld' => 'fk',
         'idc' => '500',
         'timezone' => '-3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'FM' => [
         'name' => 'Micronesia, Federated States of',
@@ -820,8 +820,8 @@ return [
         'tld' => 'fm',
         'idc' => '391',
         'timezone' => '+10,+11',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'FO' => [
         'name' => 'Faroe Islands',
@@ -831,8 +831,8 @@ return [
         'tld' => 'fo',
         'idc' => '298',
         'timezone' => '+0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'FR' => [
         'name' => 'France',
@@ -842,8 +842,8 @@ return [
         'tld' => 'fr',
         'idc' => '33',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\n^locality^ ^region^ postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n^{locality}^ ^{region}^ {postal_code}\n^{country}^"
     ],
     'GA' => [
         'name' => 'Gabon',
@@ -853,8 +853,8 @@ return [
         'tld' => 'ga',
         'idc' => '241',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'GB' => [
         'name' => 'United Kingdom',
@@ -864,8 +864,8 @@ return [
         'tld' => 'uk',
         'idc' => '44',
         'timezone' => '+0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'GD' => [
         'name' => 'Grenada',
@@ -875,8 +875,8 @@ return [
         'tld' => 'gd',
         'idc' => '1-473',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'GE' => [
         'name' => 'Georgia',
@@ -886,8 +886,8 @@ return [
         'tld' => 'ge',
         'idc' => '995',
         'timezone' => '+4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'GF' => [
         'name' => 'French Guiana',
@@ -897,8 +897,8 @@ return [
         'tld' => 'gf',
         'idc' => '',
         'timezone' => '-3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'GG' => [
         'name' => 'Guernsey',
@@ -908,8 +908,8 @@ return [
         'tld' => 'gg',
         'idc' => '44-1481',
         'timezone' => '+0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'GH' => [
         'name' => 'Ghana',
@@ -919,8 +919,8 @@ return [
         'tld' => 'gh',
         'idc' => '233',
         'timezone' => '+0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'GI' => [
         'name' => 'Gibraltar',
@@ -930,8 +930,8 @@ return [
         'tld' => 'gi',
         'idc' => '350',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'GL' => [
         'name' => 'Greenland',
@@ -941,8 +941,8 @@ return [
         'tld' => 'gl',
         'idc' => '299',
         'timezone' => '+0,-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code locality region\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} {locality} {region}\n^{country}^"
     ],
     'GM' => [
         'name' => 'Gambia',
@@ -952,8 +952,8 @@ return [
         'tld' => 'gm',
         'idc' => '220',
         'timezone' => '+0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'GN' => [
         'name' => 'Guinea',
@@ -963,8 +963,8 @@ return [
         'tld' => 'gn',
         'idc' => '224',
         'timezone' => '+0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'GP' => [
         'name' => 'Guadeloupe',
@@ -974,8 +974,8 @@ return [
         'tld' => 'gp',
         'idc' => '',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'GQ' => [
         'name' => 'Equatorial Guinea',
@@ -985,8 +985,8 @@ return [
         'tld' => 'gq',
         'idc' => '240',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'GR' => [
         'name' => 'Greece',
@@ -996,8 +996,8 @@ return [
         'tld' => 'gr',
         'idc' => '30',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'GS' => [
         'name' => 'South georgia and The South Sandwich Islands',
@@ -1007,8 +1007,8 @@ return [
         'tld' => 'gs',
         'idc' => '500',
         'timezone' => '-2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'GT' => [
         'name' => 'Guatemala',
@@ -1018,8 +1018,8 @@ return [
         'tld' => 'gt',
         'idc' => '502',
         'timezone' => '-6',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'GU' => [
         'name' => 'Guam',
@@ -1029,8 +1029,8 @@ return [
         'tld' => 'gu',
         'idc' => '1-671',
         'timezone' => '+10',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'GW' => [
         'name' => 'Guinea-Bissau',
@@ -1040,8 +1040,8 @@ return [
         'tld' => 'gw',
         'idc' => '245',
         'timezone' => '+0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'GY' => [
         'name' => 'Guyana',
@@ -1051,8 +1051,8 @@ return [
         'tld' => 'gy',
         'idc' => '592',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'HK' => [
         'name' => 'Hong Kong',
@@ -1062,8 +1062,8 @@ return [
         'tld' => 'hk',
         'idc' => '852',
         'timezone' => '+8',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'HM' => [
         'name' => 'Heard Island and McDonald Islands',
@@ -1073,8 +1073,8 @@ return [
         'tld' => 'hm',
         'idc' => '',
         'timezone' => '+5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'HN' => [
         'name' => 'Honduras',
@@ -1084,8 +1084,8 @@ return [
         'tld' => 'hn',
         'idc' => '504',
         'timezone' => '-6',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'HR' => [
         'name' => 'Croatia',
@@ -1095,8 +1095,8 @@ return [
         'tld' => 'hr',
         'idc' => '385',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'HT' => [
         'name' => 'Haiti',
@@ -1106,8 +1106,8 @@ return [
         'tld' => 'ht',
         'idc' => '509',
         'timezone' => '-5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'HU' => [
         'name' => 'Hungary',
@@ -1117,8 +1117,8 @@ return [
         'tld' => 'hu',
         'idc' => '36',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'ID' => [
         'name' => 'Indonesia',
@@ -1128,8 +1128,8 @@ return [
         'tld' => 'id',
         'idc' => '62',
         'timezone' => '+7,-9',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\n^locality^ postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n^{locality}^ {postal_code}\n^{country}^"
     ],
     'IE' => [
         'name' => 'Ireland',
@@ -1139,8 +1139,8 @@ return [
         'tld' => 'ie',
         'idc' => '353',
         'timezone' => '+0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion\npostal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region}\n{postal_code}\n^{country}^"
     ],
     'IL' => [
         'name' => 'Israel',
@@ -1150,8 +1150,8 @@ return [
         'tld' => 'il',
         'idc' => '972',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'IM' => [
         'name' => 'Isle of Man',
@@ -1161,8 +1161,8 @@ return [
         'tld' => 'im',
         'idc' => '44-1624',
         'timezone' => '+0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'IN' => [
         'name' => 'India',
@@ -1172,8 +1172,8 @@ return [
         'tld' => 'in',
         'idc' => '91',
         'timezone' => '+5.5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'IO' => [
         'name' => 'British Indian Ocean Territory',
@@ -1183,8 +1183,8 @@ return [
         'tld' => 'io',
         'idc' => '246',
         'timezone' => '+6',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'IR' => [
         'name' => 'Iran, Islamic republic of',
@@ -1194,8 +1194,8 @@ return [
         'tld' => 'ir',
         'idc' => '98',
         'timezone' => '+3.5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'IQ' => [
         'name' => 'Iraq',
@@ -1205,8 +1205,8 @@ return [
         'tld' => 'iq',
         'idc' => '964',
         'timezone' => '+3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'IS' => [
         'name' => 'Iceland',
@@ -1216,8 +1216,8 @@ return [
         'tld' => 'is',
         'idc' => '354',
         'timezone' => '+0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\n^postal_code^ ^locality^ region\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n^{postal_code}^ ^{locality}^ {region}\n^{country}^"
     ],
     'IT' => [
         'name' => 'Italy',
@@ -1227,8 +1227,8 @@ return [
         'tld' => 'it',
         'idc' => '39',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\n^postal_code^ ^locality^ region\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n^{postal_code}^ ^{locality}^ {region}\n^{country}^"
     ],
     'JE' => [
         'name' => 'Jersey',
@@ -1238,8 +1238,8 @@ return [
         'tld' => 'je',
         'idc' => '44-1534',
         'timezone' => '+0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'JM' => [
         'name' => 'Jamaica',
@@ -1249,8 +1249,8 @@ return [
         'tld' => 'ja',
         'idc' => '1-876',
         'timezone' => '-5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'JO' => [
         'name' => 'Jordan',
@@ -1260,8 +1260,8 @@ return [
         'tld' => 'jo',
         'idc' => '962',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'JP' => [
         'name' => 'Japan',
@@ -1271,8 +1271,8 @@ return [
         'tld' => 'jp',
         'idc' => '81',
         'timezone' => '+9',
-        'nameFormat' => 'honorific_prefix family_name given_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {family_name} {given_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'KE' => [
         'name' => 'Kenya',
@@ -1282,8 +1282,8 @@ return [
         'tld' => 'ke',
         'idc' => '254',
         'timezone' => '+3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'KG' => [
         'name' => 'Kyrgyzstan',
@@ -1293,8 +1293,8 @@ return [
         'tld' => 'kg',
         'idc' => '996',
         'timezone' => '+6',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'KH' => [
         'name' => 'Cambodia',
@@ -1304,8 +1304,8 @@ return [
         'tld' => 'kh',
         'idc' => '855',
         'timezone' => '+7',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'KI' => [
         'name' => 'Kiribati',
@@ -1315,8 +1315,8 @@ return [
         'tld' => 'ki',
         'idc' => '686',
         'timezone' => '+12,+14',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'KM' => [
         'name' => 'Comoros',
@@ -1326,8 +1326,8 @@ return [
         'tld' => 'km',
         'idc' => '269',
         'timezone' => '+3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'KN' => [
         'name' => 'Saint Kitts and Nevis',
@@ -1337,8 +1337,8 @@ return [
         'tld' => 'kn',
         'idc' => '1-869',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'KP' => [
         'name' => 'Korea, Democratic People\'s Republic of',
@@ -1348,8 +1348,8 @@ return [
         'tld' => 'kp',
         'idc' => '850',
         'timezone' => '+8.5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'KR' => [
         'name' => 'Korea, Republic of',
@@ -1359,8 +1359,8 @@ return [
         'tld' => 'kr',
         'idc' => '82',
         'timezone' => '+9',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\n^region^ postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n^{region}^ {postal_code}\n^{country}^"
     ],
     'KW' => [
         'name' => 'Kuwait',
@@ -1370,8 +1370,8 @@ return [
         'tld' => 'kw',
         'idc' => '965',
         'timezone' => '+3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'KY' => [
         'name' => 'Cayman Islands',
@@ -1381,8 +1381,8 @@ return [
         'tld' => 'ky',
         'idc' => '1-345',
         'timezone' => '-5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'KZ' => [
         'name' => 'Kazakhstan',
@@ -1392,8 +1392,8 @@ return [
         'tld' => 'kz',
         'idc' => '7',
         'timezone' => '+5,+6',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'LA' => [
         'name' => 'Lao People\'s Democratic Republic',
@@ -1403,8 +1403,8 @@ return [
         'tld' => 'la',
         'idc' => '856',
         'timezone' => '+7',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'LB' => [
         'name' => 'Lebanon',
@@ -1414,8 +1414,8 @@ return [
         'tld' => 'lb',
         'idc' => '961',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'LC' => [
         'name' => 'Saint Lucia',
@@ -1425,8 +1425,8 @@ return [
         'tld' => 'lc',
         'idc' => '1-758',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'LI' => [
         'name' => 'Liechtenstein',
@@ -1436,8 +1436,8 @@ return [
         'tld' => 'li',
         'idc' => '423',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'LK' => [
         'name' => 'Sri Lanka',
@@ -1447,8 +1447,8 @@ return [
         'tld' => 'lk',
         'idc' => '94',
         'timezone' => '+5.5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'LR' => [
         'name' => 'Liberia',
@@ -1458,8 +1458,8 @@ return [
         'tld' => 'lr',
         'idc' => '231',
         'timezone' => '0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'LS' => [
         'name' => 'Lesotho',
@@ -1469,8 +1469,8 @@ return [
         'tld' => 'ls',
         'idc' => '266',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'LT' => [
         'name' => 'Lithuania',
@@ -1480,8 +1480,8 @@ return [
         'tld' => 'lt',
         'idc' => '370',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'LU' => [
         'name' => 'Luxembourg',
@@ -1491,8 +1491,8 @@ return [
         'tld' => 'lu',
         'idc' => '352',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'LV' => [
         'name' => 'Latvia',
@@ -1502,8 +1502,8 @@ return [
         'tld' => 'lv',
         'idc' => '371',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'LY' => [
         'name' => 'Libya',
@@ -1513,8 +1513,8 @@ return [
         'tld' => 'ly',
         'idc' => '218',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'MA' => [
         'name' => 'Morocco',
@@ -1524,8 +1524,8 @@ return [
         'tld' => 'ma',
         'idc' => '212',
         'timezone' => '+0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'MC' => [
         'name' => 'Monaco',
@@ -1535,8 +1535,8 @@ return [
         'tld' => 'mc',
         'idc' => '377',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'MD' => [
         'name' => 'Moldova, Republic of',
@@ -1546,8 +1546,8 @@ return [
         'tld' => 'md',
         'idc' => '373',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'ME' => [
         'name' => 'Montenegro',
@@ -1557,8 +1557,8 @@ return [
         'tld' => 'me',
         'idc' => '382',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'MF' => [
         'name' => 'Saint Martin, French Part',
@@ -1568,8 +1568,8 @@ return [
         'tld' => 'mf',
         'idc' => '590',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'MG' => [
         'name' => 'Madagascar',
@@ -1579,8 +1579,8 @@ return [
         'tld' => 'mg',
         'idc' => '261',
         'timezone' => '+3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'MH' => [
         'name' => 'Marshall Islands',
@@ -1590,8 +1590,8 @@ return [
         'tld' => 'mh',
         'idc' => '692',
         'timezone' => '+12',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'MK' => [
         'name' => 'Macedonia',
@@ -1601,8 +1601,8 @@ return [
         'tld' => 'mk',
         'idc' => '389',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'ML' => [
         'name' => 'Mali',
@@ -1612,8 +1612,8 @@ return [
         'tld' => 'ml',
         'idc' => '223',
         'timezone' => '+0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'MM' => [
         'name' => 'Myanmar',
@@ -1623,8 +1623,8 @@ return [
         'tld' => 'mm',
         'idc' => '95',
         'timezone' => '+6.5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'MN' => [
         'name' => 'Mongolia',
@@ -1634,8 +1634,8 @@ return [
         'tld' => 'mn',
         'idc' => '976',
         'timezone' => '+7,+8',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'MO' => [
         'name' => 'Macao',
@@ -1645,8 +1645,8 @@ return [
         'tld' => 'mo',
         'idc' => '853',
         'timezone' => '+8',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'MP' => [
         'name' => 'Northern Mariana Islands',
@@ -1656,8 +1656,8 @@ return [
         'tld' => 'mp',
         'idc' => '1-670',
         'timezone' => '+10',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'MQ' => [
         'name' => 'Martinique',
@@ -1667,8 +1667,8 @@ return [
         'tld' => 'mq',
         'idc' => '',
         'timezone' => '-2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'MR' => [
         'name' => 'Mauritania',
@@ -1678,8 +1678,8 @@ return [
         'tld' => 'mr',
         'idc' => '222',
         'timezone' => '+0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'MS' => [
         'name' => 'Montserrat',
@@ -1689,8 +1689,8 @@ return [
         'tld' => 'ms',
         'idc' => '1-664',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'MT' => [
         'name' => 'Malta',
@@ -1700,8 +1700,8 @@ return [
         'tld' => 'mt',
         'idc' => '356',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'MU' => [
         'name' => 'Mauritius',
@@ -1711,8 +1711,8 @@ return [
         'tld' => 'mu',
         'idc' => '230',
         'timezone' => '+4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'MV' => [
         'name' => 'Maldives',
@@ -1722,8 +1722,8 @@ return [
         'tld' => 'mv',
         'idc' => '960',
         'timezone' => '+5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'MW' => [
         'name' => 'Malawi',
@@ -1733,8 +1733,8 @@ return [
         'tld' => 'mw',
         'idc' => '265',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'MX' => [
         'name' => 'Mexico',
@@ -1744,8 +1744,8 @@ return [
         'tld' => 'mx',
         'idc' => '52',
         'timezone' => '-5,-8',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'MY' => [
         'name' => 'Malaysia',
@@ -1755,8 +1755,8 @@ return [
         'tld' => 'my',
         'idc' => '60',
         'timezone' => '+8',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code locality\nregion\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} {locality}\n{region}\n^{country}^"
     ],
     'MZ' => [
         'name' => 'Mozambique',
@@ -1766,8 +1766,8 @@ return [
         'tld' => 'mz',
         'idc' => '258',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'NA' => [
         'name' => 'Namibia',
@@ -1777,8 +1777,8 @@ return [
         'tld' => 'na',
         'idc' => '264',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'NC' => [
         'name' => 'New Caledonia',
@@ -1788,8 +1788,8 @@ return [
         'tld' => 'nc',
         'idc' => '687',
         'timezone' => '+11',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'NE' => [
         'name' => 'Niger',
@@ -1799,8 +1799,8 @@ return [
         'tld' => 'ne',
         'idc' => '227',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'NF' => [
         'name' => 'Norfolk Island',
@@ -1810,8 +1810,8 @@ return [
         'tld' => 'nf',
         'idc' => '672',
         'timezone' => '+11',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'NG' => [
         'name' => 'Nigeria',
@@ -1821,8 +1821,8 @@ return [
         'tld' => 'ng',
         'idc' => '234',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'NI' => [
         'name' => 'Nicaragua',
@@ -1832,8 +1832,8 @@ return [
         'tld' => 'ni',
         'idc' => '505',
         'timezone' => '-5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'NL' => [
         'name' => 'Netherlands',
@@ -1843,8 +1843,8 @@ return [
         'tld' => 'nl',
         'idc' => '31',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code locality region\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} {locality} {region}\n^{country}^"
     ],
     'NO' => [
         'name' => 'Norway',
@@ -1854,8 +1854,8 @@ return [
         'tld' => 'no',
         'idc' => '47',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'NP' => [
         'name' => 'Nepal',
@@ -1865,8 +1865,8 @@ return [
         'tld' => 'np',
         'idc' => '977',
         'timezone' => '+5.75',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'NR' => [
         'name' => 'Nauru',
@@ -1876,8 +1876,8 @@ return [
         'tld' => 'nr',
         'idc' => '674',
         'timezone' => '+12',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'NU' => [
         'name' => 'Niue',
@@ -1887,8 +1887,8 @@ return [
         'tld' => 'nu',
         'idc' => '683',
         'timezone' => '-11',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'NZ' => [
         'name' => 'New Zealand',
@@ -1898,8 +1898,8 @@ return [
         'tld' => 'nz',
         'idc' => '64',
         'timezone' => '+12',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'OM' => [
         'name' => 'Oman',
@@ -1909,8 +1909,8 @@ return [
         'tld' => 'om',
         'idc' => '968',
         'timezone' => '+4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code\nlocality\nregion\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code}\n{locality}\n{region}\n^{country}^"
     ],
     'PA' => [
         'name' => 'Panama',
@@ -1920,8 +1920,8 @@ return [
         'tld' => 'pa',
         'idc' => '507',
         'timezone' => '-5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'PE' => [
         'name' => 'Peru',
@@ -1931,8 +1931,8 @@ return [
         'tld' => 'pe',
         'idc' => '51',
         'timezone' => '-5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'PF' => [
         'name' => 'French Polynesia',
@@ -1942,8 +1942,8 @@ return [
         'tld' => 'pf',
         'idc' => '689',
         'timezone' => '-9,-10',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'PG' => [
         'name' => 'Papua New Guinea',
@@ -1953,8 +1953,8 @@ return [
         'tld' => 'pg',
         'idc' => '675',
         'timezone' => '+10',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'PH' => [
         'name' => 'Philippines',
@@ -1964,8 +1964,8 @@ return [
         'tld' => 'ph',
         'idc' => '63',
         'timezone' => '+8',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'PK' => [
         'name' => 'Pakistan',
@@ -1975,8 +1975,8 @@ return [
         'tld' => 'pk',
         'idc' => '92',
         'timezone' => '+5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\n^locality^ ^region^ postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n^{locality}^ ^{region}^ {postal_code}\n^{country}^"
     ],
     'PL' => [
         'name' => 'Poland',
@@ -1986,8 +1986,8 @@ return [
         'tld' => 'pl',
         'idc' => '48',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'PM' => [
         'name' => 'Saint Pierre and Miquelon',
@@ -1997,8 +1997,8 @@ return [
         'tld' => 'pm',
         'idc' => '508',
         'timezone' => '-3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'PN' => [
         'name' => 'Pitcairn',
@@ -2008,8 +2008,8 @@ return [
         'tld' => 'pc',
         'idc' => '64',
         'timezone' => '-8',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'PR' => [
         'name' => 'Puerto Rico',
@@ -2019,8 +2019,8 @@ return [
         'tld' => 'pr',
         'idc' => '1-787,1-939',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'PS' => [
         'name' => 'Palestinian Territory',
@@ -2030,8 +2030,8 @@ return [
         'tld' => 'ps',
         'idc' => '970',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'PT' => [
         'name' => 'Portugal',
@@ -2041,8 +2041,8 @@ return [
         'tld' => 'pt',
         'idc' => '351',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\n^locality^\npostal_code ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n^{locality}^\n{postal_code} ^{region}^\n^{country}^"
     ],
     'PW' => [
         'name' => 'Palau',
@@ -2052,8 +2052,8 @@ return [
         'tld' => 'pw',
         'idc' => '680',
         'timezone' => '+9',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'PY' => [
         'name' => 'Paraguay',
@@ -2063,8 +2063,8 @@ return [
         'tld' => 'py',
         'idc' => '595',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'QA' => [
         'name' => 'Qatar',
@@ -2074,8 +2074,8 @@ return [
         'tld' => 'qa',
         'idc' => '947',
         'timezone' => '+3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'RE' => [
         'name' => 'Réunion',
@@ -2085,8 +2085,8 @@ return [
         'tld' => 're',
         'idc' => '262',
         'timezone' => '+4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'RO' => [
         'name' => 'Romania',
@@ -2096,8 +2096,8 @@ return [
         'tld' => 'ro',
         'idc' => '40',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code locality\nregion\ncountry'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} {locality}\n{region}\n^{country}^"
     ],
     'RS' => [
         'name' => 'Serbia',
@@ -2107,8 +2107,8 @@ return [
         'tld' => 'rs',
         'idc' => '381',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'RU' => [
         'name' => 'Russian Federation',
@@ -2118,8 +2118,8 @@ return [
         'tld' => 'ru',
         'idc' => '7',
         'timezone' => '+2,+12',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'RW' => [
         'name' => 'Rwanda',
@@ -2129,8 +2129,8 @@ return [
         'tld' => 'rw',
         'idc' => '250',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'SA' => [
         'name' => 'Saudi Arabia',
@@ -2140,8 +2140,8 @@ return [
         'tld' => 'sa',
         'idc' => '966',
         'timezone' => '+3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'SB' => [
         'name' => 'Solomon Islands',
@@ -2151,8 +2151,8 @@ return [
         'tld' => 'sb',
         'idc' => '677',
         'timezone' => '+11',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'SC' => [
         'name' => 'Seychelles',
@@ -2162,8 +2162,8 @@ return [
         'tld' => 'sc',
         'idc' => '248',
         'timezone' => '+4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'SD' => [
         'name' => 'Sudan',
@@ -2173,8 +2173,8 @@ return [
         'tld' => 'sd',
         'idc' => '249',
         'timezone' => '+3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'SE' => [
         'name' => 'Sweden',
@@ -2184,8 +2184,8 @@ return [
         'tld' => 'se',
         'idc' => '46',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'SG' => [
         'name' => 'Singapore',
@@ -2195,8 +2195,8 @@ return [
         'tld' => 'sg',
         'idc' => '65',
         'timezone' => '+8',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'SH' => [
         'name' => 'Saint Helena, Ascension and Tristan Da Cunha',
@@ -2206,8 +2206,8 @@ return [
         'tld' => 'sh',
         'idc' => '290',
         'timezone' => '+0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'SI' => [
         'name' => 'Slovenia',
@@ -2217,8 +2217,8 @@ return [
         'tld' => 'si',
         'idc' => '386',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'SJ' => [
         'name' => 'Svalbard and Jan Mayen',
@@ -2228,8 +2228,8 @@ return [
         'tld' => 'sj',
         'idc' => '47',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'SK' => [
         'name' => 'Slovakia',
@@ -2239,8 +2239,8 @@ return [
         'tld' => 'sk',
         'idc' => '421',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'SL' => [
         'name' => 'Sierra Leone',
@@ -2250,8 +2250,8 @@ return [
         'tld' => 'sl',
         'idc' => '232',
         'timezone' => '+0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'SM' => [
         'name' => 'San Marino',
@@ -2261,8 +2261,8 @@ return [
         'tld' => 'sm',
         'idc' => '378',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'SN' => [
         'name' => 'Senegal',
@@ -2272,8 +2272,8 @@ return [
         'tld' => 'sn',
         'idc' => '221',
         'timezone' => '+0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'SO' => [
         'name' => 'Somalia',
@@ -2283,8 +2283,8 @@ return [
         'tld' => 'so',
         'idc' => '252',
         'timezone' => '+3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'SR' => [
         'name' => 'Suriname',
@@ -2294,8 +2294,8 @@ return [
         'tld' => 'sr',
         'idc' => '597',
         'timezone' => '-3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'SS' => [
         'name' => 'South Sudan',
@@ -2305,8 +2305,8 @@ return [
         'tld' => 'ss',
         'idc' => '211', '+3',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'ST' => [
         'name' => 'Sao Tome and Principe',
@@ -2316,8 +2316,8 @@ return [
         'tld' => 'st',
         'idc' => '239',
         'timezone' => '+0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'SV' => [
         'name' => 'El Salvador',
@@ -2327,8 +2327,8 @@ return [
         'tld' => 'sv',
         'idc' => '503',
         'timezone' => '-6',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'SX' => [
         'name' => 'Sint Maarten, Dutch part',
@@ -2338,8 +2338,8 @@ return [
         'tld' => 'sx',
         'idc' => '1-721',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'SY' => [
         'name' => 'Syrian Arab Republic',
@@ -2349,8 +2349,8 @@ return [
         'tld' => 'sy',
         'idc' => '963',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'SZ' => [
         'name' => 'Swaziland',
@@ -2360,8 +2360,8 @@ return [
         'tld' => 'sz',
         'idc' => '268',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'TC' => [
         'name' => 'Turks and Caicos Islands',
@@ -2371,8 +2371,8 @@ return [
         'tld' => 'tc',
         'idc' => '1-649',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'TD' => [
         'name' => 'Chad',
@@ -2382,8 +2382,8 @@ return [
         'tld' => 'td',
         'idc' => '235',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'TG' => [
         'name' => 'Togo',
@@ -2393,8 +2393,8 @@ return [
         'tld' => 'tg',
         'idc' => '228',
         'timezone' => '+0',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'TH' => [
         'name' => 'Thailand',
@@ -2404,8 +2404,8 @@ return [
         'tld' => 'th',
         'idc' => '66',
         'timezone' => '+7',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'TF' => [
         'name' => 'French Southern Territories',
@@ -2415,8 +2415,8 @@ return [
         'tld' => 'tf',
         'idc' => '',
         'timezone' => '+3,+4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'TJ' => [
         'name' => 'Tajikistan',
@@ -2426,8 +2426,8 @@ return [
         'tld' => 'tj',
         'idc' => '992',
         'timezone' => '+5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'TK' => [
         'name' => 'Tokelau',
@@ -2437,8 +2437,8 @@ return [
         'tld' => 'tk',
         'idc' => '690',
         'timezone' => '+13',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'TL' => [
         'name' => 'Timor-Leste',
@@ -2448,8 +2448,8 @@ return [
         'tld' => 'tl',
         'idc' => '670',
         'timezone' => '+9',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'TM' => [
         'name' => 'Turkmenistan',
@@ -2459,8 +2459,8 @@ return [
         'tld' => 'tm',
         'idc' => '993',
         'timezone' => '+5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'TN' => [
         'name' => 'Tunisia',
@@ -2470,8 +2470,8 @@ return [
         'tld' => 'tn',
         'idc' => '216',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'TO' => [
         'name' => 'Tonga',
@@ -2481,8 +2481,8 @@ return [
         'tld' => 'to',
         'idc' => '676',
         'timezone' => '+13',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'TR' => [
         'name' => 'Turkey',
@@ -2492,8 +2492,8 @@ return [
         'tld' => 'tr',
         'idc' => '90',
         'timezone' => '+3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'TT' => [
         'name' => 'Trinidad and Tobago',
@@ -2503,8 +2503,8 @@ return [
         'tld' => 'tt',
         'idc' => '1-868',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'TV' => [
         'name' => 'Tuvalu',
@@ -2514,8 +2514,8 @@ return [
         'tld' => 'tv',
         'idc' => '688',
         'timezone' => '+12',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'TW' => [
         'name' => 'Taiwan, Province of China',
@@ -2525,8 +2525,8 @@ return [
         'tld' => 'tw',
         'idc' => '886',
         'timezone' => '+8',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality, postal_code\nregion\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}, {postal_code}\n{region}\n^{country}^"
     ],
     'TZ' => [
         'name' => 'Tanzania, United Republic of',
@@ -2536,8 +2536,8 @@ return [
         'tld' => 'tz',
         'idc' => '255',
         'timezone' => '+3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'UA' => [
         'name' => 'Ukraine',
@@ -2547,8 +2547,8 @@ return [
         'tld' => 'ua',
         'idc' => '380',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion\npostal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region}\n{postal_code}\n^{country}^"
     ],
     'UG' => [
         'name' => 'Uganda',
@@ -2558,8 +2558,8 @@ return [
         'tld' => 'ug',
         'idc' => '256',
         'timezone' => '+3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'UM' => [
         'name' => 'United States Minor Outlying Islands',
@@ -2569,8 +2569,8 @@ return [
         'tld' => 'us',
         'idc' => '',
         'timezone' => '-10',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'UN' => [
         'name' => 'United Nations',
@@ -2591,8 +2591,8 @@ return [
         'tld' => 'us',
         'idc' => '1',
         'timezone' => '-4,-12',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\n^region^ postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n^{region}^ {postal_code}\n^{country}^"
     ],
     'UY' => [
         'name' => 'Uruguay',
@@ -2602,8 +2602,8 @@ return [
         'tld' => 'uy',
         'idc' => '598',
         'timezone' => '-3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'UZ' => [
         'name' => 'Uzbekistan',
@@ -2613,8 +2613,8 @@ return [
         'tld' => 'uz',
         'idc' => '998',
         'timezone' => '+5',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'VA' => [
         'name' => 'Holy See, Vatican City State',
@@ -2624,8 +2624,8 @@ return [
         'tld' => 'va',
         'idc' => '379',
         'timezone' => '+1',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'VC' => [
         'name' => 'Saint Vincent and The Grenadines',
@@ -2635,8 +2635,8 @@ return [
         'tld' => 'vc',
         'idc' => '1-784',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'VE' => [
         'name' => 'Venezuela',
@@ -2646,8 +2646,8 @@ return [
         'tld' => 've',
         'idc' => '58',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\npostal_code ^locality^ ^region^\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{postal_code} ^{locality}^ ^{region}^\n^{country}^"
     ],
     'VG' => [
         'name' => 'Virgin Islands, British',
@@ -2657,8 +2657,8 @@ return [
         'tld' => 'vg',
         'idc' => '1-284',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'VI' => [
         'name' => 'Virgin Islands, U.S.',
@@ -2668,8 +2668,8 @@ return [
         'tld' => 'vi',
         'idc' => '1-340',
         'timezone' => '-4',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'VN' => [
         'name' => 'Viet Nam',
@@ -2679,8 +2679,8 @@ return [
         'tld' => 'vn',
         'idc' => '84',
         'timezone' => '+7',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'VU' => [
         'name' => 'Vanuatu',
@@ -2690,8 +2690,8 @@ return [
         'tld' => 'vu',
         'idc' => '678',
         'timezone' => '+11',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'WF' => [
         'name' => 'Wallis and Futuna',
@@ -2701,8 +2701,8 @@ return [
         'tld' => 'wf',
         'idc' => '681',
         'timezone' => '+12',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'WS' => [
         'name' => 'Samoa',
@@ -2712,8 +2712,8 @@ return [
         'tld' => 'ws',
         'idc' => '685',
         'timezone' => '+13',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'YE' => [
         'name' => 'Yemen',
@@ -2723,8 +2723,8 @@ return [
         'tld' => 'ye',
         'idc' => '967',
         'timezone' => '+3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'YT' => [
         'name' => 'Mayotte',
@@ -2734,8 +2734,8 @@ return [
         'tld' => 'yt',
         'idc' => '262',
         'timezone' => '+3',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'ZA' => [
         'name' => 'South Africa',
@@ -2745,8 +2745,8 @@ return [
         'tld' => 'za',
         'idc' => '27',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\n^region^\npostal_code ^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n^{region}^\n{postal_code} ^{country}^"
     ],
     'ZM' => [
         'name' => 'Zambia',
@@ -2756,8 +2756,8 @@ return [
         'tld' => 'zm',
         'idc' => '260',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ],
     'ZW' => [
         'name' => 'Zimbabwe',
@@ -2767,7 +2767,7 @@ return [
         'tld' => 'zw',
         'idc' => '263',
         'timezone' => '+2',
-        'nameFormat' => 'honorific_prefix given_name additional_name family_name honorific_suffix',
-        'addressFormat' => 'recipient\njob_title\norganization_unit\norganization_name\npost_office_box\nstreet_address\nlocality\nregion postal_code\n^country^'
+        'nameFormat' => '{honorific_prefix} {given_name} {additional_name} {family_name} {honorific_suffix}',
+        'addressFormat' => "{recipient}\n{job_title}\n{organization_unit}\n{organization_name}\n{post_office_box}\n{street_address}\n{locality}\n{region} {postal_code}\n^{country}^"
     ]
 ];
